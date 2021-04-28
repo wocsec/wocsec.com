@@ -1,19 +1,94 @@
-
 [
-    {
-        "title": "Darknet Diaries - Jack Rhysider",
-        "link": "https://darknetdiaries.com"
-    },
-    {
-        "title": "The Privacy, Security, & OSINT Show - Michael Bazzell",
-        "link": "https://inteltechniques.com/podcast.html"
-    },
-    {
-        "title": "Unsupervised Learning - Daniel Miessler",
-        "link": "https://danielmiessler.com/podcast/"
-    },
-    {
-        "title": "The Social-Engineer Podcast",
-        "link": "https://www.social-engineer.org"
-    }
+  {
+    "title": "Darknet Diaries",
+    "creator": "Jack Rhysider",
+    "description": "This is a podcast about hackers, breaches, shadow government activity, hacktivism, cybercrime, and all the things that dwell on the hidden parts of the network.",
+    "links": [
+      {
+        "id": "Official",
+        "url": "https://darknetdiaries.com"
+      },
+      {
+        "id": "Spotify",
+        "url": "https://open.spotify.com/show/4XPl3uEEL9hvqMkoZrzbx5?si=eKrU1IJcQGGT5IePPHCIrQ"
+      },
+      {
+        "id": "Apple Podcasts",
+        "url": "https://podcasts.apple.com/podcast/darknet-diaries/id1296350485"
+      },
+      {
+        "id": "Google Podcasts",
+        "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vZGFya25ldGRpYXJpZXM"
+      }
+    ]
+  },
+  {
+    "title": "The Social-Engineer Podcast",
+    "creator": "Chris Hadnagy",
+    "description": "The Social-Engineer Podcast is a monthly discussion hosted by a panel of security experts and guests who discuss human behavior and its implications for information security.",
+    "links": [
+      {
+        "id": "Official",
+        "url": "https://www.social-engineer.org/"
+      },
+      {
+        "id": "Spotify",
+        "url": "https://open.spotify.com/show/6Pmp3DQKUDW6DXBlnGpxkH"
+      },
+      {
+        "id": "Apple Podcasts",
+        "url": "https://podcasts.apple.com/podcast/the-social-engineer-podcast/id334648685"
+      },
+      {
+        "id": "Google Podcasts",
+        "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9zb2NpYWxlbmdpbmVlci5saWJzeW4uY29tL3Jzcw"
+      }
+    ]
+  },
+  {
+    "title": "The Privacy, Security, and OSINT Show",
+    "creator": "Michael Bazzell",
+    "description": "This weekly podcast presents ideas to help you become digitally invisible, stay secure from cyber threats, and make you a better online investigator.",
+    "links": [
+      {
+        "id": "Official",
+        "url": "https://inteltechniques.com/podcast.html"
+      },
+      {
+        "id": "Spotify",
+        "url": "https://open.spotify.com/show/6QPWpZJ6bRTdbkI7GgLHBM?si=W6JrTqvHQjahjzAK0vKPBA"
+      },
+      {
+        "id": "Apple Podcasts",
+        "url": "https://podcasts.apple.com/podcast/the-privacy-security-osint-show/id1165843330"
+      },
+      {
+        "id": "Google Podcasts",
+        "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjI2MTA5ODkxOC9zb3VuZHMucnNz"
+      }
+    ]
+  },
+  {
+    "title": "Unsupervised Learning",
+    "creator": "Daniel Miessler",
+    "description": "Exploring the intersection of security, technology, and society—and what might be coming next.",
+    "links": [
+      {
+        "id": "Official",
+        "url": "https://danielmiessler.com/podcast/"
+      },
+      {
+        "id": "Spotify",
+        "url": "https://open.spotify.com/show/0cIzWAEYacLz7Ag1n1YhUJ"
+      },
+      {
+        "id": "Apple Podcasts",
+        "url": "https://podcasts.apple.com/podcast/unsupervised-learning/id1099711235"
+      },
+      {
+        "id": "Google Podcasts",
+        "url": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cub21ueWNvbnRlbnQuY29tL2QvcGxheWxpc3QvMDcwYWY0NTYtNzI5Yi00YTBmLTljMDktYTZjMTAwMzk3YjU5LzNiMTU5MzcxLTI3NmQtNDI5ZS1hZTg2LWE2YzEwMDNiMDFjNC83YjYxZDRlMS1iZDNkLTRkM2YtOTdjMi1hNmMxMDAzYjAxYzkvcG9kY2FzdC5yc3M"
+      }
+    ]
+  }
 ]
