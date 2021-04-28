@@ -133,7 +133,7 @@ if (jsonFilename) {
       } else if (data.length === 1) {
         var resultWord = "result";
       }
-      if (showCount) {
+      if (showCount && data.length > 0) {
         document.getElementById("contentOutput").innerHTML = `
                 ${data
                   .map((jsonData, index) => jsonTemplate(index, jsonData))
