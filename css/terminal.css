@@ -1,0 +1,258 @@
+body
+{
+  margin: 0;
+  font-family: Inconsolata, monospace, "Lucida Console";
+  letter-spacing: 0.02em;
+  font-size: 0.8em;
+  line-height: 1.4em;
+  color: #008000;
+  background: #000000;
+}
+
+.theme-dark
+{
+  color: #008000;
+  background: #000000;
+}
+
+.theme-light, .theme-light body
+{
+  color: #333333;
+  background: #fafafa;
+}
+
+.banner
+{
+  margin: 0;
+  padding: 0;
+  font-size: 0.4em;
+  line-height: 1em;
+}
+
+.theme-dark a:link,
+.theme-dark a:active,
+.theme-dark a:visited,
+.theme-dark a:focus
+{
+  color: #000000;
+  background: #006000;
+}
+
+.theme-dark ::selection
+{
+  background: #006000;
+}
+
+.theme-dark .link-button a
+{
+  border: 1px solid #006000;
+  background: none;
+  color: #006000;
+}
+
+.theme-dark .link-button a:hover
+{
+  border: 1px solid #008000;
+  background: 1px solid #008000;
+}
+
+.theme-dark .title
+{
+  color: #000000;
+  background: #006000;
+}
+
+.theme-dark .dash-box .title a
+{
+  color: #000000;
+  background: #006000;
+}
+
+.theme-dark .dash-box .title a:hover
+{
+  background: #008000;
+}
+
+.theme-dark a:hover
+{
+  color: #000000;
+  background: #008000;
+}
+
+.theme-dark .dash-box
+{
+  border: 1px dashed #006000;
+}
+
+.theme-light
+{
+  color: #333333;
+  background: #fafafa;
+}
+
+.theme-light a:link,
+.theme-light a:active,
+.theme-light a:visited,
+.theme-light a:focus
+{
+  background: #bdbdbd;
+  color: #333333;
+}
+
+.theme-light a:hover
+{
+  color: #fafafa;
+  background: #333333;
+}
+
+.theme-light ::selection
+{
+  background: #bdbdbd;
+}
+
+.theme-light .link-button a
+{
+  border: 1px solid #999999;
+  color: #999999;
+  background: none;
+}
+
+.theme-light .link-button a:hover
+{
+  border: 1px solid #333333;
+  color: #fafafa;
+  background: #333333;
+}
+
+.theme-light .title
+{
+  color: #333333;
+  background: #bdbdbd;
+}
+
+.theme-light .dash-box .title a
+{
+  color: #333333;
+  background: #bdbdbd;
+}
+
+.theme-light .dash-box .title a:hover
+{
+  background: #333333;
+  color: #fafafa;
+}
+
+.theme-light .dash-box
+{
+  border: 1px dashed #bdbdbd;
+}
+
+::selection
+{
+  text-shadow: none;
+}
+
+#content
+{
+  padding: 25px 15px;
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+a:link,
+a:active,
+a:visited,
+a:focus,
+a:hover
+{
+  text-decoration: none;
+}
+
+.is-current
+{
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.is-current > a
+{
+  color: currentColor;
+  display: inline-block;
+  pointer-events: none;
+  text-decoration: none;
+}
+
+.dash-box
+{
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.dash-box .title
+{
+  display: inline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.dash-box .content
+{
+  margin: 10px 0;
+}
+
+.dash-box p
+{
+  margin: 10px 0;
+  padding: 0;
+}
+
+.link-box
+{
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+
+.link-button a
+{
+  border: 1px solid;
+  padding: 15px;
+  float: left;
+  display: block;
+  overflow: hidden;
+  text-transform: uppercase;
+  background: none;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+ul,
+li
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul
+{
+  margin: 10px 0;
+}
+
+.blink
+{
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker
+{
+  50%
+  {
+    opacity: 0;
+  }
+}
+
+.footer
+{
+  padding: 10px 0;
+}
